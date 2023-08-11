@@ -1,9 +1,9 @@
 import React from 'react'
+import { Header,Content,Footer } from './func-component'
 
-function App() {
-  return (
-    <h3>hello world <br/>สวัสดีชาวโลก</h3>
-  );
+function App(){
+  return(
+    [<Header/>,<Content/>,<Footer/>]
+  )
 }
-
-export default App;
+export default App
